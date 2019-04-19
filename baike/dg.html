@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>百科  -  冬瓜</title>
+<link href="css/theme.css" rel="stylesheet" media="all">
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+}
+</style>
+</head>
+<body>
+
+<div id="sequence" class="seq">
+<ul class="seq-canvas">
+
+  <li class="seq-step1 seq-valign seq-in">
+	<div class="seq-vcenter">
+	  <img data-seq class="seq-feature" src="images/dg1.png" alt="营养价值"/>
+	  <h2 data-seq class="seq-title">营养价值</h2>
+	</div>
+  </li>
+
+  <li class="seq-step2 seq-valign">
+	<div class="seq-vcenter">
+	  <img data-seq class="seq-feature" src="images/dg2.png" alt="食用宜忌"/>
+	  <h2 data-seq class="seq-title">食用宜忌</h2>
+	</div>
+  </li>
+
+  <li class="seq-step3 seq-valign">
+	<div class="seq-vcenter">
+	  <img data-seq class="seq-feature" src="images/dg3.png" alt="储存方法"/>
+	  <h2 data-seq class="seq-title">储存方法</h2>
+	</div>
+  </li>
+</ul>
+
+<fieldset class="seq-nav" aria-label="Slider buttons" aria-controls="sequence">
+
+  <button type="button" class="seq-prev" aria-label="Previous">
+	<img src="images/prev.svg" alt="Previous" />
+  </button>
+
+  <ul role="navigation" aria-label="Pagination" class="seq-pagination">
+	<li class="seq-current">
+	  <a href="#step1" rel="step1" title="Go to bananas">
+		<img src="images/1.png" alt="Bananas" width="50" height="40" />
+	  </a>
+	</li>
+	<li>
+	  <a href="#step2" rel="step2" title="Go to coconut">
+		<img src="images/2.png" alt="Coconut" width="50" height="40" />
+	  </a>
+	</li>
+	<li>
+	  <a href="#step3" rel="step3" title="Go to orange">
+		<img src="images/3.png" alt="Orange" width="50" height="40" />
+	  </a>
+	</li>
+  </ul>
+
+  <button type="button" class="seq-next" aria-label="Next">
+	<img src="images/next.svg" alt="Next" />
+  </button>
+
+</fieldset>
+</div>
+<script src="scripts/imagesloaded.pkgd.min.js"></script>
+<script src="scripts/hammer.min.js"></script>
+<script src="scripts/sequence.min.js"></script>
+<script src="scripts/sequence-theme.mono.js"></script>
+<div style="text-align:center;clear:both">
+</div>
+
+</body>
+</html>
