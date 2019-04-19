@@ -115,7 +115,7 @@ function init() {
 
         html.style.height = 'auto';
 	//setTimeout(function () { refreshNum(); }, 10); 
-        //setTimeout(refresh, 10);
+        setTimeout(refresh, 10);
 
         // clearfix
         if (root.offsetHeight <= windowHeight) {
